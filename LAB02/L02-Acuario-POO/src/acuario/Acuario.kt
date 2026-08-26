@@ -1,9 +1,9 @@
 package acuario
 
-class Acuario {
-    var ancho:Int = 20
-    var alto:Int= 40
-    var largo:Int = 100
+class Acuario(largo: Int =100, ancho: Int = 20, alto: Int = 40) {
+    var ancho:Int = largo
+    var alto:Int = ancho
+    var largo:Int = alto
 
     fun imprimirTamano() {
         println("Ancho: $ancho cm " + "Largo: $largo cm" + "alto: $alto cm")

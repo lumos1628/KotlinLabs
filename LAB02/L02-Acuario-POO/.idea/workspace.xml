@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03983de2-ed09-430c-815c-ee18e1b56ac2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/acuario/Acuario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acuario/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/acuario/Acuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/acuario/Acuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/acuario/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/acuario/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
