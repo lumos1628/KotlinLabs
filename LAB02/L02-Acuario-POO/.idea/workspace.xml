@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03983de2-ed09-430c-815c-ee18e1b56ac2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/acuario/Acuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/acuario/Acuario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gabriel/Escritorio/pruebasSoft/laboratorio-maven/calculadora-maven",
+    "last_opened_file_path": "/home/gabriel/Escritorio/Repos/PruebasSoftware",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.completion.popup"
   }
