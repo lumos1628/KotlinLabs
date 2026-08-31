@@ -20,7 +20,12 @@ fun construirAcuario(){
 
     val acuario6 = Acuario(numeroDePeces = 29)
     acuario6.imprimirTamano()
-    println("Volumen: ${acuario6.ancho * acuario6.largo * acuario6.alto / 1000}l")
+
+    // setter de volumen: se recalcula el alto
+    val acuario7 = Acuario(numeroDePeces = 29)
+    acuario7.imprimirTamano()
+    acuario7.volumen = 70
+    acuario7.imprimirTamano()
 
 }
 
