@@ -35,6 +35,14 @@ fun construirAcuario(){
 
 }
 
+fun crearPeces() {
+    val tiburon = Tiburon()
+    val pezPayaso = PezPayaso()
+    println(tiburon.color)
+    println(pezPayaso.color)
+}
+
 fun main() {
     construirAcuario()
+    crearPeces()
 }
