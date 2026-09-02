@@ -1,6 +1,5 @@
 <component name="libraryTable">
-  <library name="KotlinJavaRuntime" type="repository">
-    <properties maven-id="org.jetbrains.kotlin:kotlin-stdlib:2.4.10" />
+  <library name="KotlinJavaRuntime">
     <CLASSES>
       <root url="jar:///home/gabriel/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/2.4.10/kotlin-stdlib-2.4.10.jar!/" />
       <root url="jar:///home/gabriel/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar!/" />

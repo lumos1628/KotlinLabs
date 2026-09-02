@@ -27,6 +27,9 @@ fun construirAcuario(){
     acuario7.volumen = 70
     acuario7.imprimirTamano()
 
+    val miAcuario = Acuario(ancho = 25, largo = 25, alto = 40)
+    miAcuario.imprimirTamano()
+
 }
 
 fun main() {

@@ -1,11 +1,8 @@
 package acuario
 
-import kotlin.div
-import kotlin.text.toInt
+open class Acuario(open var largo: Int = 100, open var ancho: Int = 20, open var alto: Int = 40) {
 
-class Acuario(var largo: Int = 100, var ancho: Int = 20, var alto: Int = 40) {
-
-    var volumen: Int
+    open var volumen: Int
         get() = ancho * alto * largo / 1000
         set(valor) {
             alto = (valor * 1000) / (ancho * largo)
@@ -16,10 +13,17 @@ class Acuario(var largo: Int = 100, var ancho: Int = 20, var alto: Int = 40) {
         alto = (tanque / (largo * ancho)).toInt()
     }
 
+    open val forma = "rectángulo"
+
+    open var agua: Double = 0.0
+        get() = volumen * 0.9
+
     fun imprimirTamano() {
-        println("Tamaño -> Ancho: $ancho cm " + "Largo: $largo cm" + "alto: $alto cm")
-        println("Volumen: $volumen l")
+        println(forma)
+        println("Ancho: $ancho cm " + "Largo: $largo cm " + "Alto: $alto cm ")
+        println("Volumen: $volumen l Agua: $agua l (${agua / volumen * 100.0}% lleno)")
     }
+
     init {
         println("Iniciando acuario")
     }
