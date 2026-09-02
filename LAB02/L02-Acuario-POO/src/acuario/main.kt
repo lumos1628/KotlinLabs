@@ -40,6 +40,8 @@ fun crearPeces() {
     val pezPayaso = PezPayaso()
     println(tiburon.color)
     println(pezPayaso.color)
+    tiburon.comer()
+    pezPayaso.comer()
 }
 
 fun main() {
