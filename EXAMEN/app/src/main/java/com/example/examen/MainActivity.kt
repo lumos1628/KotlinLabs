@@ -108,7 +108,6 @@ fun PantallaPomodoro(
     var mensaje by remember { mutableStateOf("¡Concéntrate y dale! 🚀") }
 
     val haptic = LocalHapticFeedback.current
-    val esOscuro = MaterialTheme.colorScheme.background == com.example.examen.ui.theme.DarkBackground
 
     // ---------------- TEMPORIZADOR ----------------
     LaunchedEffect(corriendo) {

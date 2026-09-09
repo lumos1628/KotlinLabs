@@ -6,7 +6,6 @@ import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.flow.map
 
 private const val PREFS_NAME = "theme_preferences"
 private const val THEME_MODE_KEY = "theme_mode"

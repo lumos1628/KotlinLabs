@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f124fac-ac24-4616-8efb-4f91904b6b90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LABS/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LABS/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LABS/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LABS/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LABS/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LABS/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LABS/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LABS/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinLabs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/.idea/LAB02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/.~lock.GLAB-S02-BPAREJA-2026-01.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/GLAB-S02-BPAREJA-2026-01.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/L02-Acuario-POO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/src/acuario/Acuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/src/acuario/PecesAcuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/src/acuario/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/src/ejemplopropio/Vehiculos.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB02/L02-Acuario-POO/src/ejemplopropio/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/META-INF/KotlinLabs.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/acuario/AccionPez.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/acuario/Acuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/acuario/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/acuario/Pez.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/acuario/PezPayaso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/acuario/TanqueTorre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/acuario/Tiburon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/ejemplopropio/AccionVehiculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/ejemplopropio/Auto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/ejemplopropio/Camioneta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/ejemplopropio/Garaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/ejemplopropio/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/ejemplopropio/Moto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinLabs/ejemplopropio/Vehiculo.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IhS6c2JCKM2CMb4EVngzN5Wm2u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.MainKt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/gabriel/Escritorio/Repos/KotlinLabs",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f124fac-ac24-4616-8efb-4f91904b6b90" name="Changes" comment="" />
+      <created>1788215133310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788215133310</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
