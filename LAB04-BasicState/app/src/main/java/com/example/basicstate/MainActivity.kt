@@ -8,8 +8,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.basicstate.theme.BasicStateTheme
 import com.example.basicstate.ui.wellness.WellnessTasksList
+import com.example.basicstate.ui.wellness.WellnessViewModel
 
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +19,13 @@ class MainActivity : ComponentActivity() {
 
     enableEdgeToEdge()
     setContent {
-      BasicStateTheme { Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) { WellnessTasksList() } }
+      BasicStateTheme { Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+        val viewModel: WellnessViewModel = viewModel()
+        WellnessTasksList(
+          tasks = viewModel.tasks,
+          onCheckedChange = viewModel::toggleTaskChecked
+        )
+      } }
     }
   }
 }
