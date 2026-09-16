@@ -5,10 +5,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
@@ -17,15 +13,18 @@ import com.example.basicstate.data.WellnessTask
 import com.example.basicstate.theme.BasicStateTheme
 
 /**
- * Ítem de tarea con Checkbox y estado propio.
+ * Ítem de tarea con estado elevado.
+ *
+ * El ítem ya no guarda el estado del checkbox; recibe el valor y una
+ * lambda para notificar cambios, dejando que el padre controle el estado.
  */
 @Composable
 fun WellnessTaskItem(
     task: WellnessTask,
+    checked: Boolean,
+    onCheckedChange: (Boolean) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    var checked by remember { mutableStateOf(false) }
-
     Row(
         modifier = modifier.padding(8.dp),
         verticalAlignment = Alignment.CenterVertically
@@ -33,7 +32,7 @@ fun WellnessTaskItem(
         Text(text = task.label, modifier = Modifier.weight(1f))
         Checkbox(
             checked = checked,
-            onCheckedChange = { checked = it }
+            onCheckedChange = onCheckedChange
         )
     }
 }
@@ -42,6 +41,10 @@ fun WellnessTaskItem(
 @Composable
 fun WellnessTaskItemPreview() {
     BasicStateTheme {
-        WellnessTaskItem(WellnessTask(1, "Take a walk"))
+        WellnessTaskItem(
+            task = WellnessTask(1, "Take a walk"),
+            checked = false,
+            onCheckedChange = {}
+        )
     }
 }
