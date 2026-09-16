@@ -27,10 +27,7 @@ fun WellnessTasksList(
 
     LazyColumn(modifier = modifier.padding(16.dp)) {
         items(tasks, key = { it.id }) { task ->
-            androidx.compose.material3.Text(
-                text = task.label,
-                modifier = Modifier.padding(8.dp)
-            )
+            WellnessTaskItem(task = task)
         }
     }
 }
