@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -13,16 +14,14 @@ import com.example.basicstate.data.WellnessTask
 import com.example.basicstate.theme.BasicStateTheme
 
 /**
- * Ítem de tarea con estado elevado.
- *
- * El ítem ya no guarda el estado del checkbox; recibe el valor y una
- * lambda para notificar cambios, dejando que el padre controle el estado.
+ * Ítem de tarea con acciones: marcar y eliminar.
  */
 @Composable
 fun WellnessTaskItem(
     task: WellnessTask,
     checked: Boolean,
     onCheckedChange: (Boolean) -> Unit,
+    onClose: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Row(
@@ -34,6 +33,9 @@ fun WellnessTaskItem(
             checked = checked,
             onCheckedChange = onCheckedChange
         )
+        TextButton(onClick = onClose) {
+            Text("X")
+        }
     }
 }
 
@@ -44,7 +46,8 @@ fun WellnessTaskItemPreview() {
         WellnessTaskItem(
             task = WellnessTask(1, "Take a walk"),
             checked = false,
-            onCheckedChange = {}
+            onCheckedChange = {},
+            onClose = {}
         )
     }
 }

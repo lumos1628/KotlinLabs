@@ -23,7 +23,9 @@ class MainActivity : ComponentActivity() {
         val viewModel: WellnessViewModel = viewModel()
         WellnessTasksList(
           tasks = viewModel.tasks,
-          onCheckedChange = viewModel::toggleTaskChecked
+          onCheckedChange = viewModel::toggleTaskChecked,
+          onAddTask = viewModel::addTask,
+          onRemoveTask = viewModel::removeTask
         )
       } }
     }
