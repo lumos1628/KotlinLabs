@@ -1,5 +1,6 @@
 *.iml
 .~lock*
+.idea/
 .gradle
 /local.properties
 /.idea/caches
