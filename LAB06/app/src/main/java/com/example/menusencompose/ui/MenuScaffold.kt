@@ -15,15 +15,17 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.example.menusencompose.navigation.AppRoute
 
 @Composable
 fun CustomScaffold(
     onProfileClick: () -> Unit,
+    onNavigate: (AppRoute) -> Unit,
     content: @Composable (PaddingValues) -> Unit
 ) {
     Scaffold(
         topBar = { CustomTopBar(onProfileClick = onProfileClick) },
-        bottomBar = { CustomBottomBar() },
+        bottomBar = { CustomBottomBar(onNavigate = onNavigate) },
         content = content
     )
 }
@@ -50,18 +52,18 @@ fun CustomTopBar(onProfileClick: () -> Unit) {
 }
 
 @Composable
-fun CustomBottomBar() {
+fun CustomBottomBar(onNavigate: (AppRoute) -> Unit) {
     BottomAppBar {
-        IconButton(onClick = { }, modifier = Modifier.weight(1f)) {
+        IconButton(onClick = { onNavigate(AppRoute.Build) }, modifier = Modifier.weight(1f)) {
             Icon(imageVector = Icons.Filled.Build, contentDescription = "Build")
         }
-        IconButton(onClick = { }, modifier = Modifier.weight(1f)) {
+        IconButton(onClick = { onNavigate(AppRoute.Menu) }, modifier = Modifier.weight(1f)) {
             Icon(imageVector = Icons.Filled.Menu, contentDescription = "Menu")
         }
-        IconButton(onClick = { }, modifier = Modifier.weight(1f)) {
+        IconButton(onClick = { onNavigate(AppRoute.Favorite) }, modifier = Modifier.weight(1f)) {
             Icon(imageVector = Icons.Filled.Favorite, contentDescription = "Favorite")
         }
-        IconButton(onClick = { }, modifier = Modifier.weight(1f)) {
+        IconButton(onClick = { onNavigate(AppRoute.Delete) }, modifier = Modifier.weight(1f)) {
             Icon(imageVector = Icons.Filled.Delete, contentDescription = "Delete")
         }
     }
