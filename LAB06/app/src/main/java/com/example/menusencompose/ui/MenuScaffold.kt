@@ -2,9 +2,11 @@ package com.example.menusencompose.ui
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.AccountCircle
 import androidx.compose.material.icons.rounded.Menu
 import androidx.compose.material.icons.rounded.Search
+import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -12,6 +14,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 
 @Composable
 fun CustomScaffold(
@@ -20,6 +23,7 @@ fun CustomScaffold(
 ) {
     Scaffold(
         topBar = { CustomTopBar(onProfileClick = onProfileClick) },
+        bottomBar = { CustomBottomBar() },
         content = content
     )
 }
@@ -43,4 +47,22 @@ fun CustomTopBar(onProfileClick: () -> Unit) {
             }
         }
     )
+}
+
+@Composable
+fun CustomBottomBar() {
+    BottomAppBar {
+        IconButton(onClick = { }, modifier = Modifier.weight(1f)) {
+            Icon(imageVector = Icons.Filled.Build, contentDescription = "Build")
+        }
+        IconButton(onClick = { }, modifier = Modifier.weight(1f)) {
+            Icon(imageVector = Icons.Filled.Menu, contentDescription = "Menu")
+        }
+        IconButton(onClick = { }, modifier = Modifier.weight(1f)) {
+            Icon(imageVector = Icons.Filled.Favorite, contentDescription = "Favorite")
+        }
+        IconButton(onClick = { }, modifier = Modifier.weight(1f)) {
+            Icon(imageVector = Icons.Filled.Delete, contentDescription = "Delete")
+        }
+    }
 }
